@@ -93,7 +93,7 @@ export const renderer = new THREE.WebGLRenderer( {
 
 // standard materials
 export const loader = new THREE.TextureLoader();
-export const selectedPathMat = new THREE.LineBasicMaterial({ color: 0x3366ff, linewidth: 1.5, transparent:true, opacity: 0.7 });
+export const selectedPathMat = new THREE.LineBasicMaterial({ color: 0xff0000, linewidth: 5, transparent:true, opacity: 0.7 });
 export const defaultMaterial = new THREE.MeshStandardMaterial({ map: loader.load('data/1k_eris_fictional.jpg')});
 export const pointMaterial = new THREE.PointsMaterial( { color: 0xffffff, alphaMap: loader.load('data/disc.png'), size: initialPoint, transparent: true } );
 export const darkMaterial = new THREE.MeshBasicMaterial( { color: 0x000000 } );
@@ -101,11 +101,11 @@ export const transparentMaterial = new THREE.LineBasicMaterial( { transparent: t
 
 // orbit path materials
 export let pathMaterials = [
-    new THREE.LineBasicMaterial({ color: 0x0033ff, linewidth: 1, transparent:true, opacity: 0.5 }),
-    new THREE.LineBasicMaterial({ color: 0x0033ff, linewidth: 1, transparent:true, opacity: 0.35 }),
-    new THREE.LineBasicMaterial({ color: 0x0033ff, linewidth: 1, transparent:true, opacity: 0.3 }),
-    new THREE.LineBasicMaterial({ color: 0x0033ff, linewidth: 1, transparent:true, opacity: 0.25 }),
-    new THREE.LineBasicMaterial({ color: 0x0033ff, linewidth: 1, transparent:true, opacity: 0.2 })
+    new THREE.LineBasicMaterial({ color: 0xffffff, linewidth: 0, transparent:true, opacity: 0 }),
+    new THREE.LineBasicMaterial({ color: 0xffffff, linewidth: 0, transparent:true, opacity: 0 }),
+    new THREE.LineBasicMaterial({ color: 0xffffff, linewidth: 0, transparent:true, opacity: 0 }),
+    new THREE.LineBasicMaterial({ color: 0xffffff, linewidth: 0, transparent:true, opacity: 0 }),
+    new THREE.LineBasicMaterial({ color: 0xffffff, linewidth: 0, transparent:true, opacity: 0 })
 ];
 export function setPathMaterials(n) { [
         { opacity: 1.0 * n },
