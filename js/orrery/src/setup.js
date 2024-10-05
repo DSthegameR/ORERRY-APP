@@ -101,18 +101,18 @@ export const transparentMaterial = new THREE.LineBasicMaterial( { transparent: t
 
 // orbit path materials
 export let pathMaterials = [
-    new THREE.LineBasicMaterial({ color: 0xffffff, linewidth: 0, transparent:true, opacity: 0 }),
-    new THREE.LineBasicMaterial({ color: 0xffffff, linewidth: 0, transparent:true, opacity: 0 }),
-    new THREE.LineBasicMaterial({ color: 0xffffff, linewidth: 0, transparent:true, opacity: 0 }),
-    new THREE.LineBasicMaterial({ color: 0xffffff, linewidth: 0, transparent:true, opacity: 0 }),
-    new THREE.LineBasicMaterial({ color: 0xffffff, linewidth: 0, transparent:true, opacity: 0 })
+    new THREE.LineBasicMaterial({ color: 0x000000, linewidth: 0, transparent:true, opacity: 0 }),
+    new THREE.LineBasicMaterial({ color: 0x000000, linewidth: 0, transparent:true, opacity: 0 }),
+    new THREE.LineBasicMaterial({ color: 0x000000, linewidth: 0, transparent:true, opacity: 0 }),
+    new THREE.LineBasicMaterial({ color: 0x000000, linewidth: 0, transparent:true, opacity: 0 }),
+    new THREE.LineBasicMaterial({ color: 0x000000, linewidth: 0, transparent:true, opacity: 0 })
 ];
 export function setPathMaterials(n) { [
-        { opacity: 1.0 * n },
-        { opacity: 0.7 * n },
-        { opacity: 0.6 * n },
-        { opacity: 0.5 * n },
-        { opacity: 0.4 * n },
+        { opacity: 0 * n },
+        { opacity: 0 * n },
+        { opacity: 0 * n },
+        { opacity: 0 * n },
+        { opacity: 0 * n },
     ]
 }
 
