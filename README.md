@@ -1,9 +1,4 @@
-# orrery
-An interactive map of the Solar System created with Three.js and jQuery.
 
-This is currently live at http://alltheseworldsareyours.com
-
-It's definitely better as a desktop web experience than mobile in the current version.
 
 ## Requirements
 - [Three.js](https://github.com/mrdoob/three.js/)

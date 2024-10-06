@@ -59,15 +59,15 @@ a {
 }
 
 a:hover, .label:hover {
-    color: #ffff66;
+    color: #dfd400;
 }
 
 .tag0 {
-    color: #6a6affcc;
+    color: #ff0303cc;
 }
 
 .tag1, .tag2, .tag3, .tag4 {
-    color: #4444ff77;
+    color: #ff0303cc;
 }
 
 .gratLabel {
@@ -184,7 +184,7 @@ button img {
     left:25%;
     top: 25%;
     z-index:10;
-    background-color: #000022aa;
+    background-color: #000000;
     text-align: center;
 }
 
@@ -216,6 +216,9 @@ button img {
 
 .ui-widget-content {
     background-image: none;
+    border: 1px solid #00000000;
+    background: #00000000 url(images/ui-bg_gloss-wave_20_111111_500x100.png) 50% top repeat-x;
+    color: #d9d9d9;
 }
 
 .ui-accordion .ui-accordion-header {
